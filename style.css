@@ -1,3 +1,61 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+.titulo  {
+    /*Las cajitas del wordle donde van las palabras*/
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    border: 2px solid lightgray;
+
+    /* la fuente de las palabras */
+    color: black;
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde {
+    color: white;
+    border-color: white;
+    background-color: greenyellow;
+}
+
+.amarillo {
+    color: white;
+    border-color: white;
+    background-color: yellow;
+}
+
+.gris {
+    color: white;
+    border-color: white;
+    background-color: gray;
+}
+
+#titulo {
+    /*Caracteristicas del Titulo (si el que dice wordle)*/
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#tablero {
+    /* Caracteristicas del tablero */
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    /* Background y display*/
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
 }
